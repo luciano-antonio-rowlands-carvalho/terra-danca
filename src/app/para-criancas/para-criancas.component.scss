@@ -1,0 +1,38 @@
+h2 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.custom-radius {
+    border-radius: 50%;
+}
+
+.custom-radius2::before,
+.custom-radius3::after {
+  content: '';
+  position: absolute;
+  height: 50%;
+  border: 2px solid; /* Cor da borda, ajuste conforme necessário */
+}
+
+.custom-radius2::before {
+  top: 0;
+}
+
+.custom-radius3::after {
+  bottom: 0;
+}
+
+.centered-image {
+    display: block;
+    margin: auto;
+}
+
+  .center-btn {
+    text-align: center;
+}
+
+.custom-btn {
+    color: #fff;
+    background-color: #f35e5e;
+}
