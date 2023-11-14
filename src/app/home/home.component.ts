@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
-  InicioTamara = "/assets/inicio-tamara.jpg";
+  InicioTamara = "./assets/inicio-tamara.jpg";
 
 }

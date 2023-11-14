@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  ImgHeader = "/assets/header-pes.jpg";
+  ImgHeader = "./assets/header-pes.jpg";
   
 
 }
